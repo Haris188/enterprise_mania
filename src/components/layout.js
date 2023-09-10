@@ -14,20 +14,26 @@ const Layout = ({ location, title, children }) => {
     )
   } else {
     header = (
-      <Link className="header-link-home" to="/">
-        {title}
-      </Link>
+      <div style={{display:'flex', 'justifyContent': 'space-between', alignItems: 'center'}}>
+        <Link className="header-link-home" to="/" style={{fontStyle: 'italic'}}>
+          {title}
+        </Link>
+
+        <Link to="/contact">Contact</Link>
+      </div>
     )
   }
 
   return (
     <div className="global-wrapper" data-is-root-path={isRootPath}>
-      <header className="global-header">{header}</header>
+      <header className="global-header">
+        {header}
+      </header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
+        © {new Date().getFullYear()},
         {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+        <a href="https://www.enterprisemania.com">enterprisemania.com</a>
       </footer>
     </div>
   )
