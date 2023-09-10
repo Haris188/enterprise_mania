@@ -48,13 +48,13 @@ const Bio = () => {
           Written by <strong>{author.name}</strong> {author?.summary || null}
           {` `}
           <a target="_blank" href={`https://twitter.com/${social?.twitter || ``}`}>
-            You should follow him on Twitter
+            You should follow me on Twitter
           </a>
           {' '}
           or 
           {' '}
           <Link to='/contact'>
-            Contact him
+            Contact me
           </Link>
         </p>
       )}
