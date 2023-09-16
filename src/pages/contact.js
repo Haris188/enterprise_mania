@@ -12,6 +12,13 @@ const NotFoundPage = ({ data, location }) => {
       <h1>We would really happy to hear from you...</h1>
       <p>
         For any questions or queries, please reach out to <a href="mailto:haris@softwarefactory.ca">haris@softwarefactory.ca</a>
+        <br />
+        <br />
+        <p>
+          Twitter👉 <a href="https://twitter.com/tweetharisahmad">https://twitter.com/tweetharisahmad</a> <br />
+          LinkedIn👉 <a href="https://www.linkedin.com/in/harisahmadlink/">https://www.linkedin.com/in/harisahmadlink/ </a> <br />
+          Instagram👉 <a href="https://www.instagram.com/hariscodes/">https://www.instagram.com/hariscodes/</a>
+          </p>
       </p>
     </Layout>
   )
