@@ -16,13 +16,14 @@ module.exports = {
       summary: `Software Developer at Walmart and Enterprise Automation Enthusiast.`,
     },
     description: `A place where it's easier to automate your enterprise`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    siteUrl: `https://enterprisemania.com/`,
     social: {
       twitter: `tweetharisahmad`,
     },
   },
   plugins: [
     `gatsby-plugin-image`,
+    'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-source-filesystem`,
       options: {

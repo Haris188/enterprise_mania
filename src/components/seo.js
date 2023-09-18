@@ -34,7 +34,8 @@ const Seo = ({ description, title, children }) => {
       <meta name="description" content={metaDescription} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={metaDescription} />
-      <meta property="og:type" content="website" />
+      <meta property="og:type" content="article" />
+      <meta property="og:url" content="https://enterprisemania.com" />
       <meta name="twitter:card" content="summary" />
       <meta
         name="twitter:creator"
