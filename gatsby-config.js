@@ -10,13 +10,13 @@
 module.exports = {
   pathPrefix: '/enterprise_mania',
   siteMetadata: {
-    title: `EnterpriseMania`,
+    title: `BigCapy`,
     author: {
       name: `Haris Ahmad`,
       summary: `Software Developer at Walmart and Enterprise Automation Enthusiast.`,
     },
     description: `A place where it's easier to automate your enterprise`,
-    siteUrl: `https://enterprisemania.com/`,
+    siteUrl: `https://bigcapy.com/`,
     social: {
       twitter: `tweetharisahmad`,
     },

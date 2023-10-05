@@ -33,7 +33,7 @@ const Layout = ({ location, title, children }) => {
       <footer>
         © {new Date().getFullYear()},
         {` `}
-        <a href="https://enterprisemania.com/">enterprisemania.com</a>
+        <a href="https://bigcapy.com/">bigcapy.com</a>
       </footer>
     </div>
   )
